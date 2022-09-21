@@ -65,6 +65,7 @@ vors = [
         ]
 
 normal_waypoints = [
+        # Melbourne Area
         Coord( -38.019667, 144.763333 , 'MPZSF'),
         Coord( -37.819167, 144.932167 , 'BLTB'),
         Coord( -37.720000, 144.963333 , 'PASCO'),
@@ -75,7 +76,10 @@ normal_waypoints = [
         Coord( -37.206333, 145.835000 , 'TEMIS'),
         Coord( -37.066667, 146.116667 , 'YMFD'),
         Coord( -37.825167, 144.943167 , 'BOLTY'),
-        Coord( -37.791667, 144.770000 , 'STEVO')]
+        Coord( -37.791667, 144.770000 , 'STEVO'),
+        # Vancouver Area
+        Coord( 49.073333, -123.008333 , 'CZBB')
+        ]
 
 waypoints = vors + normal_waypoints
 
